@@ -1,8 +1,8 @@
-[09:26:37] [Server thread/INFO]: Starting minecraft server version 1.8
-[09:26:37] [Server thread/INFO]: Loading properties
-[09:26:37] [Server thread/WARN]: server.properties does not exist
-[09:26:37] [Server thread/INFO]: Generating new properties file
-[09:26:37] [Server thread/WARN]: Failed to load eula.txt
-[09:26:37] [Server thread/INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
-[09:26:45] [Server thread/INFO]: Stopping server
-[09:26:45] [Server Shutdown Thread/INFO]: Stopping server
+[12:32:00] [Server thread/INFO]: Starting minecraft server version 1.8
+[12:32:06] [Server thread/INFO]: Loading properties
+[12:32:06] [Server thread/INFO]: Default game type: SURVIVAL
+[12:32:06] [Server thread/INFO]: Generating keypair
+[12:32:07] [Server thread/INFO]: Starting Minecraft server on hurricane2029.github.io:25565
+[12:32:08] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[12:32:08] [Server thread/WARN]: The exception was: java.net.BindException: Can't assign requested address
+[12:32:08] [Server thread/WARN]: Perhaps a server is already running on that port?
