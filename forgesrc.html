@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<title>How to Setup Your Own Minecraftforge Eclipse Environment</title>
+
+	</head>
+	<body>
+
+		<h1>Instructions for Setting Up Forge Eclipse Environment</h1>
+
+		<h3>(this is a private page)</h3>
+
+		<ol>
+			
+			<li>To setup your very own forge eclipse environment, first, you have to download the forge src(as of 1.7.10 and earlier) or the MDK(as of 1.8 and later). To do this, go to <a href="files.minecraftforge.net">files.minecraftforge.net</a>, and click on whatever version of Minecraft you want in the top box. Then, depending on what version you want, click on the MDK or src in the "Recommended Version" box. Wait 6 seconds and press the "Skip Ad" button in the top right. BE CAREFUL NOT TO CLICK ANYTHING ON THE MAIN PAGE. IT WILL GET YOU A VIRUS! You will get a zip file. Create a new foler anywhere, and extract ALL the files in the zip into that new folder. This will be your ROOT folder.</li>
+			<li>You can skip this step if you already see file extensions on the names of your files. But if you don't, and your on windows, go into file explorer and select the VIEW tab. On the right hand side, find what says "File Name Extentions." Check that off.</li>
+			<li>After you've gone and done that, go into your root folder, which is the one you created in step 1, and create 3 new untitled text documents. Rename all of them to build.bat, setup workspace.bat, and setup eclipse.bat. MAKE SURE TO DELETE THE TXT OR IT WON'T WORK! If promted press yes.</li>
+			<li>Right click the setup workspace batch file, and select edit. Then, type this in: gradlew setupDecompWorkspace, then save. Exit out and edit the setup eclipse batch file. Type this in: gradlew eclipse, save, and exit.</li>
+			<li>Open up the setup workspace file, and wait until it exits by itself. Do the same with the setup eclipse file.</li>
+			<li>After that, go to <a href="eclipse.org">eclipse.org</a>, and select the Download button. Download the installer, and install eclipse with the installer. When it asks for wich eclipse to download, select java development. Also make sure you have properly installed the correct version of<a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html">JDK</a>.</li>
+			<li>Make sure when you open eclipse, it says "Eclipse Mars." When it asks you for what workspace, click browse, and navigate to your root folder, and left click the "eclipse" folder ONCE. Then, press open. Then, press OK. You should be in your eclipse java workspace with all the premade tools made by forge already installed.</li>
+			<li>You are now ready to start making your own mod. The eclipse classpath, or all the packages, classes and stuff in the package browser in eclipse are contained in the src folder of your root folder. If someone else gives you their src folder, and wants you to help develop, delete your current src folder and drag the new one in. It'll work the exact same way, but with all of the stuff that person already added in.</li>
+			<li>This tutorial was made for windows only. If you have mac, then ask Harry.</li>
+
+		</ol>
+
+		<footer>&copy2016 by hurricane2029</footer>
+	</body>
+</html>
